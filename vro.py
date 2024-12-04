@@ -207,7 +207,7 @@ def BuildAllClosestNodesMap(SourceNode, nodes_routes_values):
             folium.CircleMarker(xy, radius=3, color="blue", fill=True, fill_color="green", popup=str(i)).add_to(map_0)
     return map_0
 
-#Generating a map to display the path between source and destination
+#Generating a map
 def BuildFinalPathMap(i,p):
     node_cds = [(node['xy'][i][0], node['xy'][i][1])]
     while p[i] != i:
