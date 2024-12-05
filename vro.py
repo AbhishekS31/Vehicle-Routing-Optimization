@@ -162,7 +162,7 @@ def dijkstra(source, connectivity_matrix, p):
         u = u_x
         i -= 1
 
-#Plot Routes used for creating a continuos nodes 
+#Plot Routes used for creating a continuos node
 def plot_routes(s, connectivity_matrix):
     p = dict()
     dijkstra(s, connectivity_matrix, p)
