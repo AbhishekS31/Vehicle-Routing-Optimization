@@ -227,6 +227,7 @@ def BuildFinalPathMap(i,p):
 def OpenHTMLMapinBrowser(filename):
     url = "file://" + os.path.realpath(filename)
     webbrowser.open(url,new=2)
+    
 
 #First Map Generator to show all the Nodes(over map)
 map1 = BuildAllNodesMap()
