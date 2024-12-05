@@ -158,7 +158,7 @@ def dijkstra(source, connectivity_matrix, p):
                     d_u = connectivity_matrix[source][j]
 
         if u_x == source: break
-        s[u_x] = True
+        s[u_x] = Truegit 
         u = u_x
         i -= 1
 
@@ -228,7 +228,7 @@ def OpenHTMLMapinBrowser(filename):
     url = "file://" + os.path.realpath(filename)
     webbrowser.open(url,new=2)
 
-#First Map Generator to show all the Nodes
+#First Map Generator to show all the Nodes(over map)
 map1 = BuildAllNodesMap()
 map1.save("AllNodeMap.html")
 OpenHTMLMapinBrowser("AllNodeMap.html")
