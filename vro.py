@@ -233,7 +233,7 @@ map1 = BuildAllNodesMap()
 map1.save("AllNodeMap.html")
 OpenHTMLMapinBrowser("AllNodeMap.html")
 
-#Third Map Generator to show path from source to destination
+#Third Map Generator to show path from source to destination(exact path)
 while(True):
     SourceNode=int(input("Enter a source Node or 0 to exit:"))
     connectivity_matrix = create_connectivity()
