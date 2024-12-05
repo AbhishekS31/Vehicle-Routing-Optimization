@@ -121,7 +121,7 @@ def create_connectivity():
 
     return connectivity_matrix
 
-#Dijkstra Algorithm used for finding the shortest path
+#Dijkstra Algorithm used for finding the shortest path(between defined endpoints)
 def dijkstra(source, connectivity_matrix, p):
     s = dict()
     s[source] = True
@@ -162,7 +162,7 @@ def dijkstra(source, connectivity_matrix, p):
         u = u_x
         i -= 1
 
-#Plot Routes used for creating a continuos nodes
+#Plot Routes used for creating a continuos nodes 
 def plot_routes(s, connectivity_matrix):
     p = dict()
     dijkstra(s, connectivity_matrix, p)
