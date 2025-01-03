@@ -1,0 +1,7 @@
+numpy
+folium
+geopy
+networkx
+streamlit
+requests
+openrouteservice
