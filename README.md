@@ -23,8 +23,7 @@ Usage Requirements
 Python 3.x
 Install dependencies:
 bash
-Copy code
-pip install xmltodict folium numpy
+```pip install -r requirements.txt``
 Running the Script
 Place the OSM file (e.g., mapHSR.osm) in the Maps directory.
 
