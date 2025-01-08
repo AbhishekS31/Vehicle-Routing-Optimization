@@ -23,7 +23,7 @@ Usage Requirements
 Python 3.x
 Install dependencies:
 bash
-```pip install -r requirements.txt``
+```pip install -r requirements.txt```
 Running the Script
 Place the OSM file (e.g., mapHSR.osm) in the Maps directory.
 
