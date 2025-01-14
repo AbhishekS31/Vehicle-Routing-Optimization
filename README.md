@@ -24,8 +24,6 @@ Python 3.x
 Install dependencies:
 bash
 ```pip install -r requirements.txt```
-Running the Script
-Place the OSM file (e.g., mapHSR.osm) in the Maps directory.
 
 
 Interacting with the Maps:
@@ -37,12 +35,6 @@ Example Output:
 All Node Map: Displays all nodes.
 Closest Nodes Map: Shows nodes nearest to the source.
 Path Map: Displays the shortest route between source and destination nodes.
-Project Structure
-mapHSR.osm: Input OSM data.
-map_analysis.py: Main script for parsing, pathfinding, and map generation.
-AllNodeMap.html: Map showing all nodes.
-AllClosestNodeMap.html: Map showing nodes near a source.
-OutputMap.html: Map showing the shortest path.
 
 
 Algorithm :
